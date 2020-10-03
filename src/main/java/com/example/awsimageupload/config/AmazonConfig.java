@@ -15,8 +15,8 @@ public class AmazonConfig {
     public AmazonS3 s3(){
 
         AWSCredentials awsCredentials = new BasicAWSCredentials(
-                "AKIAI75KQ6THADBVOEHQ",
-                "WrhTOqbd66xDfej/3E/qo/sk9bW7PEJE8qt4+ra7"
+                "",
+                ""
         );
 
         return AmazonS3ClientBuilder
